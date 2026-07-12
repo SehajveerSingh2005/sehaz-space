@@ -1,0 +1,92 @@
+[
+  {
+    "id": "spot_1783883485524",
+    "label": "drawer",
+    "description": "stay away it's private",
+    "x": 84,
+    "y": 65.8,
+    "color": "purple",
+    "type": "general"
+  },
+  {
+    "id": "spot_1783883572937",
+    "label": "Turntable",
+    "description": "Click to play/pause background lofi tracks.",
+    "x": 10.3,
+    "y": 69.3,
+    "color": "purple",
+    "type": "vinyl_player"
+  },
+  {
+    "id": "spot_1783883732878",
+    "label": "journal",
+    "description": "Read my personal writing on Substack.",
+    "x": 62.6,
+    "y": 40.2,
+    "color": "purple",
+    "type": "general"
+  },
+  {
+    "id": "spot_1783883776256",
+    "label": "Desk",
+    "description": "Have a good look at my desk",
+    "x": 31.3,
+    "y": 48.9,
+    "color": "purple",
+    "type": "computer_desk"
+  },
+  {
+    "id": "spot_1783883849933",
+    "label": "bedroom door",
+    "description": "Shifting to another room\n(Coming soon!)",
+    "x": 94.7,
+    "y": 63.8,
+    "color": "purple",
+    "type": "general"
+  },
+  {
+    "id": "spot_1783883913216",
+    "label": "bed",
+    "description": "Lay down if you want to rest,\nI don't mind",
+    "x": 68.1,
+    "y": 54.2,
+    "color": "purple",
+    "type": "bed_chill"
+  },
+  {
+    "id": "spot_1783883980579",
+    "label": "sehaz's chair",
+    "description": "Don't sit here, sit on the other one.",
+    "x": 28.9,
+    "y": 85.8,
+    "color": "purple",
+    "type": "general"
+  },
+  {
+    "id": "spot_1783884028825",
+    "label": "green chair",
+    "description": "You can sit down and relax.",
+    "x": 58.3,
+    "y": 92.9,
+    "color": "purple",
+    "type": "general"
+  },
+  {
+    "id": "spot_1783890186923",
+    "label": "New Hotspot",
+    "description": "Describe what clicking this item displays.",
+    "x": 50.4,
+    "y": 19.2,
+    "color": "purple",
+    "type": "light_switch"
+  },
+  {
+    "id": "spot_1783890207371",
+    "label": "New Hotspot",
+    "description": "Describe what clicking this item displays.",
+    "x": 23.9,
+    "y": 29.4,
+    "color": "purple",
+    "type": "light_switch"
+  }
+]
