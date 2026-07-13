@@ -2,8 +2,8 @@
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import initialHotspots from '$lib/hotspots.json';
-	import bedroomDay from '$lib/images/bedroom.png?enhanced';
-	import bedroomNight from '$lib/images/bedroom-night.png?enhanced';
+	import bedroomDay from '$lib/images/bedroom.png?enhanced&lossless=true';
+	import bedroomNight from '$lib/images/bedroom-night.png?enhanced&lossless=true';
 
 	// Hotspot Interface
 	interface Hotspot {
@@ -396,6 +396,7 @@
 						style="opacity: {isNightMode ? 0 : 1};"
 						draggable="false"
 						fetchpriority="high"
+						sizes="100vw"
 					/>
 					<enhanced:img
 						src={bedroomNight}
@@ -404,6 +405,7 @@
 						style="opacity: {isNightMode ? 1 : 0};"
 						draggable="false"
 						loading="lazy"
+						sizes="100vw"
 					/>
 				</div>
 
