@@ -6,7 +6,8 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<title>sehaz.space</title>
+	<link rel="icon" href="/favicon.svg" />
 </svelte:head>
 
 {@render children()}

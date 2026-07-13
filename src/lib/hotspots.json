@@ -36,15 +36,6 @@
     "type": "computer_desk"
   },
   {
-    "id": "spot_1783883849933",
-    "label": "bedroom door",
-    "description": "Shifting to another room\n(Coming soon!)",
-    "x": 94.7,
-    "y": 63.8,
-    "color": "purple",
-    "type": "general"
-  },
-  {
     "id": "spot_1783883913216",
     "label": "bed",
     "description": "Lay down if you want to rest,\nI don't mind",
@@ -88,5 +79,105 @@
     "y": 29.4,
     "color": "purple",
     "type": "light_switch"
+  },
+  {
+    "id": "spot_1783945882938",
+    "label": "lamp 3",
+    "description": "Describe what clicking this item displays.",
+    "x": 50.5,
+    "y": 29.4,
+    "color": "purple",
+    "type": "light_switch",
+    "room": "living_room"
+  },
+  {
+    "id": "spot_1783946003455",
+    "label": "cat",
+    "description": "*stares judgingly*",
+    "x": 34.8,
+    "y": 75.1,
+    "color": "purple",
+    "type": "general",
+    "room": "living_room"
+  },
+  {
+    "id": "spot_1783946508186",
+    "label": "bedroom door",
+    "description": "Describe what clicking this item displays.",
+    "x": 94.9,
+    "y": 62,
+    "color": "purple",
+    "type": "room_switch",
+    "room": "bedroom"
+  },
+  {
+    "id": "spot_1783946879586",
+    "label": "living room door",
+    "description": "Describe what clicking this item displays.",
+    "x": 8.3,
+    "y": 57.7,
+    "color": "purple",
+    "type": "room_switch",
+    "room": "living_room"
+  },
+  {
+    "id": "spot_1783947270416",
+    "label": "living room window",
+    "description": "Describe what clicking this item displays.",
+    "x": 59.1,
+    "y": 19.5,
+    "color": "purple",
+    "type": "light_switch",
+    "room": "living_room"
+  },
+  {
+    "id": "spot_1783947772984",
+    "label": "synth",
+    "description": "Describe what clicking this item displays.",
+    "x": 29.9,
+    "y": 46.2,
+    "color": "purple",
+    "type": "synth",
+    "room": "living_room"
+  },
+  {
+    "id": "spot_1783951276205",
+    "label": "chess",
+    "description": "Describe what clicking this item displays.",
+    "x": 51.8,
+    "y": 64.2,
+    "color": "purple",
+    "type": "chess",
+    "room": "living_room"
+  },
+  {
+    "id": "spot_1783953687460",
+    "label": "plant",
+    "description": "just a plant\nwhat did you think?",
+    "x": 62.9,
+    "y": 51.4,
+    "color": "purple",
+    "type": "general",
+    "room": "living_room"
+  },
+  {
+    "id": "spot_1783955280948",
+    "label": "bookshelf",
+    "description": "Browse my favorite books and music albums.",
+    "x": 11,
+    "y": 85.4,
+    "color": "purple",
+    "type": "bookshelf",
+    "room": "bedroom"
+  },
+  {
+    "id": "spot_1783962556888",
+    "label": "rack",
+    "description": "Browse my favorite movies and shows.",
+    "x": 79.8,
+    "y": 87.1,
+    "color": "purple",
+    "type": "rack",
+    "room": "living_room"
   }
 ]
