@@ -24,7 +24,7 @@
 }
 
 body {
-  background: radial-gradient(circle at center, #1b1236 0%, var(--bg-space) 70%, var(--bg-space-dark) 100%);
+  background: var(--bg-space-dark);
   color: var(--text-primary);
   font-family: var(--font-sans);
   min-height: 100vh;

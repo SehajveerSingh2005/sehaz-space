@@ -2,8 +2,8 @@
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import initialHotspots from '$lib/hotspots.json';
-	import bedroomDay from '$lib/images/bedroom.png?enhanced&lossless=true';
-	import bedroomNight from '$lib/images/bedroom-night.png?enhanced&lossless=true';
+	import bedroomDay from '$lib/images/bedroom.png?enhanced&quality=95';
+	import bedroomNight from '$lib/images/bedroom-night.png?enhanced&quality=95';
 
 	// Hotspot Interface
 	interface Hotspot {
@@ -162,9 +162,6 @@
 		};
 
 		window.addEventListener('keydown', handleKeyDown);
-
-		// Trigger fade-in after a short delay to let the room image settle
-		setTimeout(() => { isPageLoaded = true; }, 120);
 
 		return () => {
 			window.removeEventListener('keydown', handleKeyDown);
@@ -397,6 +394,7 @@
 						draggable="false"
 						fetchpriority="high"
 						sizes="100vw"
+						onload={() => { isPageLoaded = true; }}
 					/>
 					<enhanced:img
 						src={bedroomNight}
